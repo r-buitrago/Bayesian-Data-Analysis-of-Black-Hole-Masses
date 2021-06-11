@@ -6,3 +6,5 @@ This is the repository for my proyect: "Determining the mass of a black hole fro
  - Histograms: They are a very visual tool to see how my joint fit model works, and what is the final shape of the probability distribution for each black hole.
 
 I have also included the following code to analyse and visualize the data: 
+ - joint_fit.stan: this is the Stan code to perform the joint data analysis. The model includes the novel probability distribution that I designed and a method to incorporate upper bounds into the analysis.
+ - upper_bound.stan: this is a model to analyse data with upper bounds. I have tested it with a toy model. Getting used to this code might be useful in trying to understand joint_fit.stan
