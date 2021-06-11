@@ -13,3 +13,4 @@ I have also included the following code to analyse and visualize the data:
  - Type1_histogram.R and Type2_histograms.R: This is the code that generates the histograms in histograms.zip. You can use it to try histograms with another individual variables' fits, or to try your own model and compare it with mine.
  - upper_bound.stan: This is the code for my upper bound model when there are no observational errors in X. I use it to test my model with the code in UpperBoundToyModel.R.
  - GalaxiesFUVLkSigmaPlot.R: A plot of the real values for the black hole masses from the posterior of the individual and joint fits.
+ - figures.zip: All the graphs that I have used in my project.
