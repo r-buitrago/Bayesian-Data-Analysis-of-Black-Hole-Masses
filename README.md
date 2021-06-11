@@ -11,4 +11,5 @@ I have also included the following code to analyse and visualize the data:
  - IndividualJointPlots.R: this is a code that plots several graphs (X,Y), where Y is the black hole mass and X is one of the galaxy's variables. 
  - Sampling.R: This is a code to generate and save samplings for the posterior distributions of the black hole masses in a .txt file (comma separated values).
  - Type1_histogram.R and Type2_histograms.R: This is the code that generates the histograms in histograms.zip. You can use it to try histograms with another individual variables' fits, or to try your own model and compare it with mine.
- - upper_bound.stan: This is the code for my upper bound model when there are no observational errors in X. I use it to test my model with the code in UpperBoundToyModel.R
+ - upper_bound.stan: This is the code for my upper bound model when there are no observational errors in X. I use it to test my model with the code in UpperBoundToyModel.R.
+ - GalaxiesFUVLkSigmaPlot.R: A plot of the real values for the black hole masses from the posterior of the individual and joint fits.
