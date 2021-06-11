@@ -65,7 +65,7 @@ for(i in indeces ){
 }
 
 #Plotting
-j=1
+j <- 1
 for(index in orderyerr_1){
   df <- data.frame(yreal_sample[,index])
   colnames(df) <- "yreal_sample"
@@ -115,5 +115,5 @@ for(index in orderyerr_1){
   filename <- paste("type1_",j,"_",data_MBH[["galaxynames"]][index],"_individual",".png",sep="")
   ggsave(filename=filename,plot=p,width=7,height=7)
   
-  j = j+1
+  j <- j+1
 }
